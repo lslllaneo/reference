@@ -97,7 +97,11 @@ nofollow:
   enable: true
   field: site
   exclude:
-    - "exclude1.com"
+    - "tableconvert.com"
+    - "dorefer.com"
+    - "fionaai.com"
+    - "github.com"
+    - "x.com"
 
 excerpt:
   depth: 2
@@ -142,3 +146,9 @@ markdown:
     permalinkSymbol: "#"
     case: 1
     separator: "-"
+
+# Browsersync configuration
+browsersync:
+  ui: false # disable ui
+  notify: false # disable notification
+  logLevel: silent # set log level to silent
